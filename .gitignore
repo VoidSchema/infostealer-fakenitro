@@ -1,0 +1,35 @@
+# runtime config, holds a live webhook URL
+config.py
+.env
+.env.*
+
+# PyInstaller output, embeds config.py inside the exe and pkg
+build/
+dist/
+*.spec
+*.exe
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# collected archives, logs, test leftovers
+*.zip
+*.log
+*.tmp
+*.bak
+screenshot*.png
+
+# editors and OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
